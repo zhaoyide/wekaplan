@@ -1,0 +1,634 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Weka Blog | Guidance</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="1024" />
+  <meta name="viewport" content="width=1024, maximum-scale=1" />
+  <meta id="meta-keywords" name="keywords" content=""/>
+  <meta id="meta-description" name="description" content=""/>
+  <link rel="alternate" type="application/rss+xml" title="RSS feed" href="/rss.xml"/>
+
+  <meta property="og:title" content="Weka Blog | Guidance"/>
+<script type='text/javascript'>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+<script type='text/javascript'>
+var _fc;window.getInsights=function(a,b){_fc||(_fc=a,a=null),window.AMInsights?(_fc&&(_fc(window.AMInsights),_fc=null),a&&a(window.AMInsights)):(b=b||25,setTimeout(function(){window.getInsights(a,2*b)},b))};
+</script>
+<script type='text/javascript' src='https://149B4.wpc.azureedge.net/80149B4/insights/t.js?brand=SiteBuilder&v=g-201705111105488850'></script>
+<script type='text/javascript'>
+window.getInsights(function(insights){insights.init('758739cd-fb0a-4092-a5c9-8ddc3f1e925b');});
+</script>
+  <link rel="stylesheet" type="text/css" href="//storage.googleapis.com/wzcomponents/g-201705111105488850/viewer-sitebuilder/viewer.css"/>
+<script type='text/javascript'>
+var PageData = {"baseAddress":"http://www.wekaplan.us","ServicesBasePath":"","isTablet":false,"siteSettings":{"blogRssSettings":{"enabled":true},"mobileIsDeactivated":"false","analyticsTrackingId":"\"\"","doneFirstPublish":"true","enableColumnsGrid":"false","isFirstMobileUse":"true","showAlwaysColumnsGrid":"false"},"defaultAjaxPageID":"id1494009442632","PageNotFound":false};
+var Global = {"FacebookAppID":"310287139132389","IsMobile":false,"IsMobileView":false,"IsMobileClient":false,"SiteID":42149728,"IsNewStructure":true};
+var SiteInformation =  {"limitations":{"video":{"limitation":{"isLimited":true}},"pages":{"limitation":{"isLimited":true}},"ecommerce":{"limitation":{"productLimit":0,"isLimited":true}},"publish":{"limitation":{"isLimited":true}},"stats":{"limitation":{"isLimited":true}},"storage":{"limitation":{"isLimited":false}},"file":{"limitation":{"isLimited":false}},"premium":{"limitation":{"isLimited":false}},"mobile":{"limitation":{"isLimited":false}},"newSites":{"limitation":{"isLimited":false}},"favicon":{"limitation":{"isLimited":false}},"embedded":{"limitation":{"isLimited":true}},"bannerFeature":{"iframeUrl":null,"iframeHeight":null,"limitation":{"isLimited":false}},"history":{"limitation":{"isLimited":true,"upsellText":"Don't lose your work! To have unlimited access to all previous <br />versions of your site with Save History you must <a target=\"_blank\" href=\"https://secure.sitebuilder.com\">upgrade</a>"}},"posts":{"limitation":{"maxPosts":7,"isLimited":true}},"hdvideo":{"limitation":{"isLimited":false}},"totalpages":{"limitation":{"maxPages":6,"isLimited":false}},"advancedStats":{"limitation":{"maxPages":6,"isLimited":true}}},"isPremium":true,"groupId":42149728,"storeInformation":{},"baseVersion":79254446};
+var Settings = {"UserStorageUrlsMap":{"1":"//assets.sitebuilder.com/users/{0}/","2":"https://wzukusers.blob.core.windows.net/user-{0}/","6":"https://storage.googleapis.com/wzukusers/user-{0}/","61":"//storage.googleapis.com/wzukusers/user-{0}/","64":"//storage.googleapis.com/wzusersdev/user-{0}/"},"WebzaiStorageUrlsMap":{"1":"//assets.sitebuilder.com/assets/","2":"https://wzuk.blob.core.windows.net/assets/","6":"https://storage.googleapis.com/wzuk/assets/","61":"//storage.googleapis.com/wzuk/assets/","64":"//storage.googleapis.com/wzdev/assets/"},"GoogleMapsApiKey":"AIzaSyBqzvzEdBs_lC3Mqud-3RbMGmXJ3oPyNZo","StaticContentUrl":"//webzaidev.blob.core.windows.net/","ServiceAddress":"http://editor.sitebuilder.com/","ApplicationRoot":"//storage.googleapis.com/wzcomponents/g-201705111105488850","Brand":6,"ApplicationDomain":"sitebuilder.com","YoutubeApiKey":"AIzaSyBqzvzEdBs_lC3Mqud-3RbMGmXJ3oPyNZo","AppsIframeRoot":"//preview.sitebuilder.com","AppVersion":"g-201705111105488850","DevelopmentMode":"","ServiceEndpoints":{"Store":{"PublicApi":"https://store-api.sitebuilder.com/v1/","EmbedApi":"https://embed.sitebuilder.com/dist/src/"}},"ImageProxy":"https://images.mywebsitebuilder.com/s/?","DataProxy":"https://data.mywebsitebuilder.com","RaygunSettings":null};
+
+</script>
+<script src='//storage.googleapis.com/wzcomponents/g-201705111105488850/viewer/viewer.js' type='text/javascript'></script>
+<script src='https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/5919de3f859c3qnwsYYB.js?1494947572' type='text/javascript'></script>
+<script src='https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/1ia42T4pDcilHhfKxFcl.js?1494947572' type='text/javascript'></script>
+<script src='https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/IYRDsRHvcoevTxaubVN9.js?1494947572' type='text/javascript'></script>
+<script type='text/javascript'>
+var SiteFilesMap = {"page-id1343681126037":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/IuYT2gpsNNYCt3Cw315b.js","page-1379335329066":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/lbfgWa9B4anHmbzaZCsc.js","page-1379335334284":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/k2TZJXwRCveO0cN9Nl3N.js","page-1379335339712":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/lSpgoxhQkNvGZKWVV6w0.js","page-id1454511988597":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/nKphkW1P4ikpvfFxOdUB.js","page-id1463679603818":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/b7BuC8tCzBy6Y5j0S0BU.js","page-id1463682084628":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/gTHD5hN4Tfge8FvwdMny.js","page-id1463682929593":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/6uyHqVV6SvpsgBF7WzUx.js","page-id1463685575077":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/hdZKp8EXFtZ00sZCN8aB.js","page-id1478425428770":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/QAYBmezvBXF8ERWdoQj7.js","page-id1494009442261":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/2BHRv4E7ajA2BOR8KLJ7.js","page-id1494009442632":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/IYRDsRHvcoevTxaubVN9.js","page-id1494433274381":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/KAs5NgzruJ78hfi7u5a2.js","master-1343681126036":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/1ia42T4pDcilHhfKxFcl.js","site-structure":"https://storage.googleapis.com/wzukusers/user-19426653/sites/42149728/56ae3e23e877cywAn6qw/5919de3f859c3qnwsYYB.js"};</script>
+
+  <script type="text/javascript">
+    var DynamicPageContent = {"LocalBlog":{"version":"2017-05-06 00:20:04","item":{"tag":"guidance","page":1},"widgets":{"id1494009493478":{"items":[{"tag":"blogging","count":"3"},{"tag":"guidance","count":"3"},{"tag":"seo","count":"2"},{"tag":"business","count":"1"},{"tag":"link building","count":"1"},{"tag":"personal","count":"1"},{"tag":"standing out","count":"1"},{"tag":"quality content","count":"1"}]},"id1494009493485":{"items":[26479673,26479685,26479697],"totalCount":3},"id1494009493493":{"items":[26479709,26479673,26479697],"totalCount":3}},"items":{"26479673":{"id":26479673,"title":"What SBA Loan Is For You.","content":null,"blurb":"If you\u2019re planning to start a business or expand an existing business, you might need financing help. SBA participates in a number of loan programs designed for business owners who may have trouble qualifying for a traditional bank loan.\nTo start the process, you should visit a local bank or lending institution that participates in SBA programs. SBA loan applications are structured to meet SBA requirements, so that the loan is eligible for an SBA guarantee. This guarantee represents the portion","author":"SBA","coverImage":{"imageUrl":{"id":999992,"imagePath":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=0d46539531d5512ca5e194b9795a26d0","thumbPath":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3bb01882bbb96fcb45984c2f43461ce3","ownerID":null,"storageServer":0,"scaledVersions":[{"size":200,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3bb01882bbb96fcb45984c2f43461ce3"},{"size":400,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=68f48916c9d8e36e960623112586a765"},{"size":600,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&fit=max&s=68f48916c9d8e36e960623112586a765"},{"size":800,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&s=68f48916c9d8e36e960623112586a765"},{"size":1080,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=0d46539531d5512ca5e194b9795a26d0"},{"size":1450,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1450&fit=max&s=0d46539531d5512ca5e194b9795a26d0"},{"size":1600,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&fit=max&s=0d46539531d5512ca5e194b9795a26d0"},{"size":2048,"imageUrl":"https:\/\/images.unsplash.com\/photo-1444653614773-995cb1ef9efa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&s=0d46539531d5512ca5e194b9795a26d0"}],"imageWidth":4523,"imageHeight":2996,"isTemporary":null}},"date":"2015\/09\/22","featured":true,"pinned":false,"status":1,"coverImageDescription":"What SBA Loan Is For You.","tags":["blogging","guidance","seo"],"urlAlias":"to-blog-or-not-to-blog-blog.-of-course-wed-say-that","metaData":{"useCustomSummary":true,"useCustomCoverImage":false,"compatibilityVersion":17.004},"next":null,"previous":null,"modified":"2017-05-06 00:20:04"},"26479685":{"id":26479685,"title":"What SBA Offers to Help Small Businesses Grow","content":null,"blurb":"What does SBA offer to small business owners? The programs are many and varied, and the qualifications for each are specific. SBA can help facilitate a loan for you with a third party lender, guarantee a bond, or help you find venture capital. Understanding how SBA works is the first step towards receiving assistance.\nSBA\u2019s Role\nSBA provides a number of financial assistance programs for small businesses that have been specifically designed to meet key financing needs, including debt financing,","author":"SBA","coverImage":{"imageUrl":{"id":594074,"imagePath":"78555012\/78555012.jpg","thumbPath":"78555012\/78555012_thumb.jpg","ownerID":null,"storageServer":61,"scaledVersions":[{"size":1000,"suffix":"_1000"},{"size":1450,"suffix":"_1450"},{"size":200,"suffix":"_200"},{"size":400,"suffix":"_400"},{"size":600,"suffix":"_600"},{"size":800,"suffix":"_800"}],"imageWidth":3869,"imageHeight":2576,"isTemporary":0}},"date":"2015\/07\/29","featured":true,"pinned":false,"status":1,"coverImageDescription":"What SBA Offers to Help Small Businesses Grow","tags":["blogging","business","link building","personal"],"urlAlias":"welcome-to-our-blog-but-what-is-it","metaData":{"useCustomSummary":true,"useCustomCoverImage":false,"compatibilityVersion":17.004},"next":null,"previous":null,"modified":"2017-05-06 00:04:21"},"26479697":{"id":26479697,"title":"Is Your Small Business Ready to Sell to the Government?","content":null,"blurb":"When you're writing your next post, consider this: 80% of people will read your blog headline, but only 20% will stay for the rest. \u00a0\nSo, if headlines are 400% more important than what comes after them (where there\u2019s already ever-increasing competition to attract eyes), you need to be more concise than ever to get attention.\n\nThe Importance of Title Length\nA guide on the right length for your\u00a0post titles\n\nIf you want to keep your followers\u2019 attention while conveying your brilliant wordplay, keep","author":"Caron_Beesley, Contributor","coverImage":{"imageUrl":{"id":999983,"imagePath":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=6246a505b19fabec417ece8ec1ab1f06","thumbPath":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3edf2f2f6be1e53fc338e0c86afb009e","ownerID":null,"storageServer":0,"scaledVersions":[{"size":200,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3edf2f2f6be1e53fc338e0c86afb009e"},{"size":400,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=ebcf7f84f02d0ac1b7a9fdaa9fe034f2"},{"size":600,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&fit=max&s=ebcf7f84f02d0ac1b7a9fdaa9fe034f2"},{"size":800,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&s=ebcf7f84f02d0ac1b7a9fdaa9fe034f2"},{"size":1080,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=6246a505b19fabec417ece8ec1ab1f06"},{"size":1450,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1450&fit=max&s=6246a505b19fabec417ece8ec1ab1f06"},{"size":1600,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&fit=max&s=6246a505b19fabec417ece8ec1ab1f06"},{"size":2048,"imageUrl":"https:\/\/images.unsplash.com\/photo-1470110385011-8c66cb46f0e9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&s=6246a505b19fabec417ece8ec1ab1f06"}],"imageWidth":2500,"imageHeight":1667,"isTemporary":null}},"date":"2014\/12\/05","featured":true,"pinned":false,"status":1,"coverImageDescription":"Is Your Small Business Ready to Sell to the Government?","tags":["guidance","standing out"],"urlAlias":"why-your-titles-should-be-no-longer-than-this","metaData":{"useCustomSummary":true,"useCustomCoverImage":false,"compatibilityVersion":17.004},"next":null,"previous":null,"modified":"2017-05-06 00:00:51"},"26479709":{"id":26479709,"title":"SBA Announces National Small Business Week","content":null,"blurb":"WASHINGTON \u2013 On May 1 st, the head of the U.S. Small Business Administration (SBA), Administrator Maria Contreras-Sweet announced that this year\u2019s National Small Business Week will be held from May 1-7. \u00a0This year\u2019s theme will be \u201cDream Big, Start Small.\u201d\nContreras-Sweet will start the week in Washington, D.C., where she will recognize and award outstanding small business owners from around the country. She will then continue the week with small business events in Atlanta, Denver, Phoenix, and","author":"Terry Sutherland (202) 205-6919","coverImage":{"imageUrl":{"id":80937658,"imagePath":"590d0acebd94bG04ci8s\/NSBW_Banner_New.jpg","ownerID":19426653,"storageServer":6,"scaledVersions":[{"size":200,"suffix":"_d200"},{"size":400,"suffix":"_d400"},{"size":600,"suffix":"_d600"}],"imageWidth":610,"imageHeight":344,"isTemporary":0}},"date":"2017\/05\/02","featured":false,"pinned":false,"status":1,"coverImageDescription":"SBA Announces National Small Business Week","tags":["blogging","guidance","quality content","seo"],"urlAlias":"6-top-tips-for-a-tip-top-blog","metaData":{"useCustomSummary":true,"useCustomCoverImage":false,"compatibilityVersion":17.004},"next":null,"previous":null,"modified":"2017-05-05 23:35:24"}}}};
+    var DBSiteMetaData = {
+      'pagesStructureInformation':{
+        'pagesData':{"id1343681126037":{"metaTags":"","tags":[],"id":"id1343681126037","title":"Home","index":1,"pageTitle":"","shareStyle":true,"useNameASTitle":false,"isHomePage":true,"supportsMobileStates":true,"useNameASUrl":false,"urlAlias":"","useDefaultTitle":false},"1379335329066":{"metaTags":"","tags":[],"id":"1379335329066","title":"Services","pageTitle":"","description":"default description","keyWords":"","index":2,"useNameASTitle":true,"shareStyle":true,"isHomePage":false,"supportsMobileStates":true,"useNameASUrl":false,"urlAlias":"services","useDefaultTitle":false},"1379335334284":{"metaTags":"","tags":[],"id":"1379335334284","title":"Events","pageTitle":"Gallery","description":"default description","keyWords":"","index":8,"useNameASTitle":true,"shareStyle":true,"isHomePage":false,"supportsMobileStates":true,"useDefaultTitle":false,"useNameASUrl":false,"urlAlias":"news"},"1379335339712":{"metaTags":"","tags":[],"id":"1379335339712","title":"Contacts","pageTitle":"","description":"default description","keyWords":"","index":11,"useNameASTitle":true,"shareStyle":true,"isHomePage":false,"supportsMobileStates":true,"useNameASUrl":false,"urlAlias":"contact","useDefaultTitle":false},"id1454511988597":{"metaTags":"","tags":[],"id":"id1454511988597","title":"investment immigration","pageTitle":"","description":"","keyWords":"","index":3,"isHomePage":false,"urlAlias":"investment-immigration","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"menu":{"isMobileDisabled":true,"isDesktopDisabled":true}},"id1463679603818":{"metaTags":"","tags":[],"id":"id1463679603818","title":"Insights","pageTitle":"","description":"","keyWords":"","index":4,"isHomePage":false,"urlAlias":"insights","useNameASUrl":true,"supportsMobileStates":true,"useDefaultTitle":false,"shareStyle":true},"id1463682084628":{"metaTags":"","tags":[],"id":"id1463682084628","title":"Join Us","pageTitle":"","description":"","keyWords":"","index":10,"isHomePage":false,"urlAlias":"join-us","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"useDefaultTitle":false},"id1463682929593":{"metaTags":"","tags":[],"id":"id1463682929593","title":"2015\u5e74\u7f8e\u56fd\u5bf9\u5916\u8d38\u6613\u6570\u636e","pageTitle":"","description":"","keyWords":"","index":6,"isHomePage":false,"urlAlias":"2015\u5e74\u7f8e\u56fd\u5bf9\u5916\u8d38\u6613\u6570\u636e","useNameASUrl":true,"supportsMobileStates":true,"menu":{"isDesktopDisabled":true,"isMobileDisabled":true},"useDefaultTitle":false,"shareStyle":true},"id1463685575077":{"metaTags":"","tags":[],"id":"id1463685575077","title":"2015\u5e74\u4e2d\u56fd\u5bf9\u5916\u8d38\u6613\u6570\u636e","pageTitle":"","description":"","keyWords":"","index":7,"isHomePage":false,"urlAlias":"2015\u5e74\u4e2d\u56fd\u5bf9\u5916\u8d38\u6613\u6570\u636e","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"menu":{"isMobileDisabled":true,"isDesktopDisabled":true}},"id1478425428770":{"metaTags":"","tags":[],"id":"id1478425428770","title":"\u7f8e\u56fd\u653f\u5e9c\u5bf9\u5c0f\u4f01\u4e1a\u7684\u6276\u6301\u653f\u7b56\u63aa\u65bd","pageTitle":"\u7f8e\u56fd\u653f\u5e9c\u5bf9\u5c0f\u4f01\u4e1a\u7684\u6276\u6301\u653f\u7b56\u63aa\u65bd","description":"","keyWords":"\u6276\u6301\u653f\u7b56","index":5,"isHomePage":false,"urlAlias":"\u7f8e\u56fd\u653f\u5e9c\u5bf9\u5c0f\u4f01\u4e1a\u7684\u6276\u6301\u653f\u7b56\u63aa\u65bd","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"menu":{"isDesktopDisabled":true,"isMobileDisabled":true}},"id1494009442261":{"metaTags":"","tags":[],"id":"id1494009442261","title":"Post Page","pageTitle":"","description":"","keyWords":"","isHomePage":false,"pageListName":"LocalBlog","urlAlias":"post-page","useNameASUrl":true,"shareStyle":true,"supportsMobileStates":true},"id1494009442632":{"metaTags":"","tags":[],"id":"id1494009442632","title":"Weka Blog","pageTitle":"","description":"","keyWords":"","index":9,"isHomePage":false,"masterPageListName":"LocalBlog","urlAlias":"weka-blog","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"useDefaultTitle":false},"id1494433274381":{"metaTags":"","tags":[],"id":"id1494433274381","title":"\u4e3b\u9875","pageTitle":"","description":"","keyWords":"","index":12,"isHomePage":false,"urlAlias":"\u4e3b\u9875","useNameASUrl":true,"supportsMobileStates":true,"menu":{"isDesktopDisabled":true,"isMobileDisabled":true},"shareStyle":true}},
+        'pagesHierarchies':{"1379335329066":["id1454511988597"],"id1463679603818":["id1463682929593","id1463685575077","id1478425428770"],"id1494009442632":["id1494009442261"]}      },
+      'siteStructureInformation':{
+        'masterPages': {"1343681126036":{"pagesIDs":["id1343681126037","1379335329066","1379335334284","1379335339712","id1454511988597","id1463679603818","id1463682084628","id1463682929593","id1463685575077","id1478425428770","id1494009442261","id1494009442632","id1494433274381"]}},
+        'listsInformation':{"LocalBlog":{"listId":13993757,"listName":"LocalBlog","defaultDynamicPageId":"id1494009442261","connectedListPage":"id1494009442632","connectedDynamicPages":["id1494009442261"],"isTemplate":false}}      }
+    };
+
+    var TemporaryImages = []
+    Viewer.initialize();
+  </script>
+</head>
+
+<body>
+<div id="body-element">
+    <header class="site-element" element-id="1403595824563" element-type="HeaderElement">
+        <div class="element-children-container">
+            <div class="site-element" element-id="id1454510849043" element-type="image"><img src="https://storage.googleapis.com/wzukusers/user-19426653/images/56b07cde46ad0XeiS62u/logo-2_d200.jpg" width="108" height="111"></div>
+            <div class="site-element" element-id="1408377504770" element-type="freeText">
+                <div class="theme-text-style-headingXL" style="text-align: center;"><span style="letter-spacing: 2px;"><span class="theme-text-color-3-0"><span style="font-size: 58px;">WEKAPLAN</span> </span></span><br></div>
+            </div>
+            <div class="site-element" element-id="1408378230066" element-type="freeText">
+                <div>
+                    <div class="theme-text-style-title" style="text-align: center;"><span class="theme-text-color-3-0"><strong><span style="font-size: 41px;">Consulting Firm</span><br></strong></span></div>
+                    <div class="theme-text-style-title" style="text-align: center;"><span class="theme-text-color-3-0"><strong></strong></span><br></div>
+                    <div class="theme-text-style-title" style="text-align: center;"><span class="theme-text-color-3-0"><strong><br>FOLLOW YOUR DREAMS<br>REACH YOUR GOALS</strong></span><span style="font-size: 24px;"><br></span><br> <br></div>
+                </div>
+            </div><a href="http://www.wekaplan.us/zh/index.html">
+                <div class="site-element" element-id="id1494429849454" element-type="SkinButtonElement">
+                    <div><strong>&#20013;&#25991;</strong><br></div>
+                </div>
+            </a>
+            <nav class="site-element" element-id="1406637114914" element-type="PagesMenu">
+                <nav><a href="/">Home</a><a href="/services">Services</a><a href="/insights">Insights</a><a href="/news">Events</a><a href="/weka-blog">Weka Blog</a><a href="/join-us">Join Us</a><a href="/contact">Contacts</a></nav>
+            </nav>
+        </div>
+    </header>
+    <section class="site-element" element-id="masterPageContentSectionId" element-type="SectionElement"></section>
+    <div class="site-element" element-id="1403595824383" element-type="PageContentElement"></div>
+    <section class="site-element" element-id="id1494009493473" element-type="SectionElement">
+        <div class="element-children-container">
+            <h3 class="site-element" element-id="id1494009493474" element-type="freeText">
+                <div><span style="font-size: 69px;"><strong></strong></span><span style="font-size: 49px;"><strong>WEKA BLOG</strong></span><br></div>
+            </h3>
+            <div class="site-element" element-id="id1494009493475" element-type="freeText">
+                <div>
+                    <div><br></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="site-element" element-id="id1494009493476" element-type="SectionElement">
+        <div class="element-children-container">
+            <div class="site-element" element-id="id1494009493493" element-type="PostsList">
+                <ol>
+                    <li>
+                        <div class="site-element" element-id="1494009493662" element-type="skinListViewItem">
+                            <div><a href="/weka-blog/6-top-tips-for-a-tip-top-blog">
+                                    <article class="site-element" element-id="id1446020319007" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1446020319012" element-type="image"><img src="https://storage.googleapis.com/wzukusers/user-19426653/images/590d0acebd94bG04ci8s/NSBW_Banner_New_d400.jpg" alt="SBA Announces National Small Business Week" width="366" height="354"></div>
+                                            <h2 class="site-element" element-id="id1446020319010" element-type="label">SBA Announces National Small Business Week</h2>
+                                            <div class="site-element" element-id="id1446020319014" element-type="Icon"></div>
+                                            <div class="site-element" element-id="id1446020319013" element-type="date">05/02/2017</div>
+                                            <article class="site-element" element-id="id1446020319011" element-type="label">WASHINGTON – On May 1 st, the head of the U.S. Small Business Administration (SBA), Administrator Maria Contreras-Sweet announced that this year’s National Small Business Week will be held from May 1-7.  This year’s theme will be “Dream Big, Start Small.”
+Contreras-Sweet will start the week in Washington, D.C., where she will recognize and award outstanding small business owners from around the country. She will then continue the week with small business events in Atlanta, Denver, Phoenix, and</article>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493662" element-type="skinListViewItem">
+                            <div><a href="/weka-blog/to-blog-or-not-to-blog-blog.-of-course-wed-say-that">
+                                    <article class="site-element" element-id="id1446020319007" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <h2 class="site-element" element-id="id1446020319010" element-type="label">What SBA Loan Is For You.</h2>
+                                            <div class="site-element" element-id="id1446020319014" element-type="Icon"></div>
+                                            <div class="site-element" element-id="id1446020319013" element-type="date">09/22/2015</div>
+                                            <article class="site-element" element-id="id1446020319011" element-type="label">If you’re planning to start a business or expand an existing business, you might need financing help. SBA participates in a number of loan programs designed for business owners who may have trouble qualifying for a traditional bank loan.
+To start the process, you should visit a local bank or lending institution that participates in SBA programs. SBA loan applications are structured to meet SBA requirements, so that the loan is eligible for an SBA guarantee. This guarantee represents the portion</article>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493662" element-type="skinListViewItem">
+                            <div><a href="/weka-blog/why-your-titles-should-be-no-longer-than-this">
+                                    <article class="site-element" element-id="id1446020319007" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <h2 class="site-element" element-id="id1446020319010" element-type="label">Is Your Small Business Ready to Sell to the Government?</h2>
+                                            <div class="site-element" element-id="id1446020319014" element-type="Icon"></div>
+                                            <div class="site-element" element-id="id1446020319013" element-type="date">12/05/2014</div>
+                                            <article class="site-element" element-id="id1446020319011" element-type="label">When you're writing your next post, consider this: 80% of people will read your blog headline, but only 20% will stay for the rest.  
+So, if headlines are 400% more important than what comes after them (where there’s already ever-increasing competition to attract eyes), you need to be more concise than ever to get attention.
+
+The Importance of Title Length
+A guide on the right length for your post titles
+
+If you want to keep your followers’ attention while conveying your brilliant wordplay, keep</article>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <h1 class="site-element" element-id="id1494028569165" element-type="freeText">
+                <div>Meet Our Specialist<br></div>
+            </h1>
+            <div class="site-element" element-id="id1494009493489" element-type="image"><img src="https://storage.googleapis.com/wzukusers/user-19426653/images/590cd3cc70cabM8VQwKr/new-image_original_crop.jpg" width="170" height="167"></div>
+            <div class="site-element" element-id="id1494009493490" element-type="freeText">
+                <div style="text-align: center;">John Xu<br></div>
+                <div style="text-align: center;">CGBP<br></div>
+                <div style="text-align: center;">Lender Relations Specialist<br></div>
+                <div style="text-align: center;">District International Trade Officer<br></div>
+                <div style="text-align: center;">U.S. Small Business Administration Connecticut District Office<br></div>
+            </div>
+            <div class="site-element" element-id="id1494009493492" element-type="line"></div>
+            <nav class="site-element" element-id="id1494009493491" element-type="SocialIconsElement">
+                <ol>
+                    <li>
+                        <div class="site-element" element-id="1494009493652" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.facebook.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493652" element-type="SkinSocialIconItem">
+                            <div><a href="http://plus.google.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493652" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.twitter.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493652" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.pinterest.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493652" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.instagram.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494009493652" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.youtube.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+            <div class="site-element" element-id="id1494283927875" element-type="image"><img src="https://storage.googleapis.com/wzukusers/user-19426653/images/5910f71943807qNw6Swv/AAEAAQAAAAAAAAMPAAAAJGUyYjU0NDE2LWI3MzMtNDdhMi1hNGM4LWFkMjc0ODc0MWE5Zg.jpg" width="170" height="167"></div>
+            <div class="site-element" element-id="id1494284085453" element-type="freeText">
+                <div style="text-align: center;">James Bellano<br></div>
+                <div style="text-align: center;">Director Economic Development at Town of Windham, CT<br></div>
+            </div>
+            <div class="site-element" element-id="id1494284164641" element-type="line"></div>
+            <nav class="site-element" element-id="id1494284182344" element-type="SocialIconsElement">
+                <ol>
+                    <li>
+                        <div class="site-element" element-id="1494284182361" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.facebook.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494284182361" element-type="SkinSocialIconItem">
+                            <div><a href="http://plus.google.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494284182361" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.twitter.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494284182361" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.pinterest.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494284182361" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.instagram.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1494284182361" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.youtube.com">
+                                    <div class="site-element" element-id="id1421769204217" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1421769204224" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+            <aside class="site-element" element-id="id1494009493477" element-type="userBox">
+                <div class="element-children-container">
+                    <h1 class="site-element" element-id="id1494009493484" element-type="freeText">
+                        <div><span style="font-size:14px;">FEATURED POSTS</span></div>
+                    </h1>
+                    <div class="site-element" element-id="id1494009493482" element-type="line"></div>
+                    <div class="site-element" element-id="id1494009493483" element-type="line"></div>
+                    <div class="site-element" element-id="id1494009493485" element-type="PostsList">
+                        <ol>
+                            <li>
+                                <div class="site-element" element-id="1494009493633" element-type="skinListViewItem">
+                                    <div><a href="/weka-blog/to-blog-or-not-to-blog-blog.-of-course-wed-say-that">
+                                            <article class="site-element" element-id="id1443690129838" element-type="skinHierarchyBox">
+                                                <div class="element-children-container">
+                                                    <h2 class="site-element" element-id="id1443690129840" element-type="label">What SBA Loan Is For You.</h2>
+                                                    <div class="site-element" element-id="id1443690129842" element-type="label">If you’re planning to start a business or expand an existing business, you might need financing help. SBA participates in a number of loan programs designed for business owners who may have trouble qualifying for a traditional bank loan.
+To start the process, you should visit a local bank or lending institution that participates in SBA programs. SBA loan applications are structured to meet SBA requirements, so that the loan is eligible for an SBA guarantee. This guarantee represents the portion</div>
+                                                </div>
+                                            </article>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493633" element-type="skinListViewItem">
+                                    <div><a href="/weka-blog/welcome-to-our-blog-but-what-is-it">
+                                            <article class="site-element" element-id="id1443690129838" element-type="skinHierarchyBox">
+                                                <div class="element-children-container">
+                                                    <div class="site-element" element-id="id1443690129841" element-type="image"><img src="//storage.googleapis.com/wzuk/assets/images/78555012/78555012_1000.jpg" width="82" height="82"></div>
+                                                    <h2 class="site-element" element-id="id1443690129840" element-type="label">What SBA Offers to Help Small Businesses Grow</h2>
+                                                    <div class="site-element" element-id="id1443690129842" element-type="label">What does SBA offer to small business owners? The programs are many and varied, and the qualifications for each are specific. SBA can help facilitate a loan for you with a third party lender, guarantee a bond, or help you find venture capital. Understanding how SBA works is the first step towards receiving assistance.
+SBA’s Role
+SBA provides a number of financial assistance programs for small businesses that have been specifically designed to meet key financing needs, including debt financing,</div>
+                                                </div>
+                                            </article>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493633" element-type="skinListViewItem">
+                                    <div><a href="/weka-blog/why-your-titles-should-be-no-longer-than-this">
+                                            <article class="site-element" element-id="id1443690129838" element-type="skinHierarchyBox">
+                                                <div class="element-children-container">
+                                                    <h2 class="site-element" element-id="id1443690129840" element-type="label">Is Your Small Business Ready to Sell to the Government?</h2>
+                                                    <div class="site-element" element-id="id1443690129842" element-type="label">When you're writing your next post, consider this: 80% of people will read your blog headline, but only 20% will stay for the rest.  
+So, if headlines are 400% more important than what comes after them (where there’s already ever-increasing competition to attract eyes), you need to be more concise than ever to get attention.
+
+The Importance of Title Length
+A guide on the right length for your post titles
+
+If you want to keep your followers’ attention while conveying your brilliant wordplay, keep</div>
+                                                </div>
+                                            </article>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="site-element" element-id="id1494009493486" element-type="SkinButtonElement">
+                        <div>
+                            <div class="site-element" element-id="id1431213630181" element-type="skinHierarchyBox">
+                                <div class="element-children-container">
+                                    <div class="site-element" element-id="id1431213630183" element-type="Icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-element" element-id="id1494009493487" element-type="SkinButtonElement">
+                        <div>
+                            <div class="site-element" element-id="id1431213630181" element-type="skinHierarchyBox">
+                                <div class="element-children-container">
+                                    <div class="site-element" element-id="id1431213630183" element-type="Icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="site-element" element-id="id1494009493481" element-type="freeText">
+                        <div>TAGS</div>
+                    </h1>
+                    <div class="site-element" element-id="id1494009493479" element-type="line"></div>
+                    <div class="site-element" element-id="id1494009493480" element-type="line"></div>
+                    <nav class="site-element" element-id="id1494009493478" element-type="TagCloud">
+                        <ol>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/blogging">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">blogging</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/guidance">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">guidance</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/seo">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">seo</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/business">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">business</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/link+building">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">link building</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/personal">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">personal</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/standing+out">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">standing out</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="site-element" element-id="1494009493623" element-type="SkinTagButton">
+                                    <div>
+                                        <div class="site-element" element-id="id1421246921799" element-type="skinHierarchyBox">
+                                            <div class="element-children-container"><a href="/weka-blog/tag/quality+content">
+                                                    <div class="site-element" element-id="id1421246921802" element-type="label">quality content</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </aside>
+            <aside class="site-element" element-id="id1494009493495" element-type="userBox">
+                <div class="element-children-container">
+                    <h1 class="site-element" element-id="id1494009493498" element-type="freeText">
+                        <div><span style="font-size:14px;">LATEST VIDEO</span></div>
+                    </h1>
+                    <div class="site-element" element-id="id1494009493496" element-type="line"></div>
+                    <div class="site-element" element-id="id1494009493497" element-type="line"></div>
+                    <div class="site-element" element-id="id1494009493499" element-type="VideoPlayer">
+                        <iframe src="http://www.youtube.com/embed/JJ31vcABCzo"></iframe>
+                    </div>
+                </div>
+            </aside>
+            <nav class="site-element" element-id="id1494009493494" element-type="Menu">
+                <ol></ol>
+            </nav>
+        </div>
+    </section>
+    <footer class="site-element" element-id="id1463680553344" element-type="FooterElement">
+        <div class="element-children-container">
+            <div class="site-element" element-id="id1463680553345" element-type="freeText">
+                <div>Site Map</div>
+            </div>
+            <div class="site-element" element-id="id1463680553347" element-type="freeText">
+                <div>Follow Us</div>
+            </div>
+            <div class="site-element" element-id="id1463680553351" element-type="freeText">
+                <div>Contact us</div>
+            </div>
+            <nav class="site-element" element-id="id1463680553346" element-type="PagesMenu">
+                <nav><a href="/">Home</a><a href="/services">Services</a><a href="/insights">Insights</a><a href="/news">Events</a><a href="/weka-blog">Weka Blog</a><a href="/join-us">Join Us</a><a href="/contact">Contacts</a></nav>
+            </nav>
+            <div class="site-element" element-id="id1463680553352" element-type="FormElement">
+                <form>
+                    <div class="site-element" element-id="1463680553391" element-type="skinInputElement">
+                        <div>
+                            <div class="site-element" element-id="1407307509331-1402899369379" element-type="skinHierarchyBox">
+                                <div class="element-children-container">
+                                    <div class="site-element" element-id="1407307510152" element-type="label">E-mail</div>
+                                    <div class="site-element" element-id="1407307510151" element-type="TextInputField"><input type="text"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-element" element-id="1463680553391" element-type="skinInputElement">
+                        <div>
+                            <div class="site-element" element-id="1407307509331-1402899369379" element-type="skinHierarchyBox">
+                                <div class="element-children-container">
+                                    <div class="site-element" element-id="1407307510152" element-type="label">Phone</div>
+                                    <div class="site-element" element-id="1407307510151" element-type="TextInputField"><input type="text"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-element" element-id="1463680553391" element-type="skinInputElement">
+                        <div>
+                            <div class="site-element" element-id="1407307509331-1402899369379" element-type="skinHierarchyBox">
+                                <div class="element-children-container">
+                                    <div class="site-element" element-id="1407307510152" element-type="label">Name</div>
+                                    <div class="site-element" element-id="1407307510151" element-type="TextInputField"><input type="text"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="element-children-container">
+                    <div class="site-element" element-id="id1463680553353" element-type="SkinButtonElement">
+                        <div>Submit</div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-element" element-id="id1463680553349" element-type="freeText">
+                <div><br>If you would like to start your business in USA<br>If you would like to sale your products around the whole world<br>Please feel free to contact us at any time!<br><br></div>
+            </div>
+            <nav class="site-element" element-id="id1463680553350" element-type="SocialIconsElement">
+                <ol>
+                    <li>
+                        <div class="site-element" element-id="1463680553377" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.facebook.com">
+                                    <div class="site-element" element-id="id1419701165125" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1419701165129" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1463680553377" element-type="SkinSocialIconItem">
+                            <div><a href="http://plus.google.com">
+                                    <div class="site-element" element-id="id1419701165125" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1419701165129" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-element" element-id="1463680553377" element-type="SkinSocialIconItem">
+                            <div><a href="http://www.twitter.com">
+                                    <div class="site-element" element-id="id1419701165125" element-type="skinHierarchyBox">
+                                        <div class="element-children-container">
+                                            <div class="site-element" element-id="id1419701165129" element-type="Icon"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </footer>
+</div></body>
+</html>
